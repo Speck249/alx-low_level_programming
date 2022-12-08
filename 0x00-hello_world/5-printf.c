@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-/* Entry point - main 
- * printf - prints desired string
- * return - indicates execution status (0 - Success & 1 - Failure)
+/** 
+ * main - Entry point
+ *
+ * return - 0 Indicates Successful Execution Status
  */
 
-int main () {
-
+int main (void) 
+{
    printf("with proper grammar, but the outcome is a piece of art,\n");
-
-   return 0;
-
+   return (0);
 }
 
