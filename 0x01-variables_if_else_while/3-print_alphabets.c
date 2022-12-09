@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
 *main - Prints the Alphabet in lowercase then uppercase
 *
@@ -7,15 +8,15 @@
 
 int main(void)
 {
-char a;
-for(a='a';a<='z';a++)
+int i;
+for (i = 97; i <= 122; i++)
 {
-putchar(a);
+putchar(i);
 }
 
-for(a='A';a<='Z';a++)
+for(i = 65; i <= 90; i++)
 {
-putchar(a);
+putchar(i);
 }
 
 putchar('\n');
