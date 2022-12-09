@@ -1,6 +1,6 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  *main - Prints whether number is neg. or pos.
  *Return: Always 0 (Success)
