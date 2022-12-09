@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
 *main - prints lowercase Alphabet in reverse
 *
@@ -7,11 +8,11 @@
 
 int main(void)
 {
-char a='z';
-while(a>='a')
+int i = 122;
+while (i >= 97)
 {
-putchar(a);
-a--;
+putchar(i);
+i--;
 }
 putchar('\n');
 return (0);
