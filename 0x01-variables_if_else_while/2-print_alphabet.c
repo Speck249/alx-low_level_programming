@@ -7,12 +7,13 @@
 
 int main(void)
 {
-int i = 97;
-while(i <= 122)
+char a[27]:"abcdefghijklmnopqrstuvwxyz";
+int i;
+while(i <= 27)
 {
-putchar(i);
+putchar(a[i]);
 i++;
 }
-putchar(\'n');
+putchar('\n');
 return (0);
 }
