@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *main - Prints the Alphabet excluding q and e
- *
- *Return: Always 0 (Success)
+*main - Prints the Alphabet excluding q and e
+*
+*Return: Always 0 (Success)
 */
 
 int main(void)
