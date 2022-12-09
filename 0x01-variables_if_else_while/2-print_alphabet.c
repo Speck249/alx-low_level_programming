@@ -9,10 +9,9 @@ int main(void)
 {
 char a[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
-while (i <= 26)
+for (i = 0; i < 26; i++)
 {
 putchar(a[i]);
-i++;
 }
 putchar('\n');
 return (0);
