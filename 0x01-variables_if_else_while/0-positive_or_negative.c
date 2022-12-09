@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Prints whether number is neg. or pos.
- *Return: Always 0 (Success)
- */
+*main - Prints whether number is neg. or pos.
+*Return: Always 0 (Success)
+*/
 
 int main(void)
 {
