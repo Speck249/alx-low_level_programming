@@ -17,7 +17,7 @@ while (i <= 57)
 {
 putchar(n);
 putchar(i);
-if(i == 57 && n == 57)
+if (i == 57 && n == 57)
 {
 break;
 }
