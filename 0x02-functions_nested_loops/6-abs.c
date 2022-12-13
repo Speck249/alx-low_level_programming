@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_abs -  function computes the absolute value of an integer
+*_abs - function computes the absolute value of an integer
 *
 *Return: Always 0 (Success)
 */
@@ -11,4 +11,5 @@ int n;
 n = abs();
 _putchar(n);
 _putchar('\n');
+return (0);
 }
