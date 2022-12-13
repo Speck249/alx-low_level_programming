@@ -17,16 +17,28 @@ if (n < 10)
 _putchar(48);
 _putchar(n + '0');
 }
+else if (n >= 10)
+{
+_putchar((n / 10) + '0'));
+_putchar((n % 10) + '0'));
+}
 if (m < 10)
 {
 _putchar(58);
 _putchar(48);
-_putchar(m);
+_putchar(m + '0');
+}
+else if (m > 10)
+{
+_putchar(58);
+_putchar(48);
+_putchar((m / 10) + '0');
+_putchar((m % 10) + '0');
 }
 _putchar(n);
 _putchar(58);
 _putchar(m);
 }
 }
-return (0);
+_putchar('\n');
 }
