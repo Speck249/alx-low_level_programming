@@ -2,7 +2,7 @@
 /**
 *print_to_98 - prints all natural numbers from n to 98
 *
-*@n - natural numbers
+*@n: natural numbers
 *
 *Return: Always 0 (Success)
 */
@@ -23,5 +23,5 @@ for (; n < 98; n++)
 printf("%d, ", n);
 }
 }
-printf ("%d\n", n);
+printf("%d\n", n);
 }
