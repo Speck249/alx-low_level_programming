@@ -7,9 +7,15 @@
 
 int _abs(int)
 {
-int n;
-n = abs();
-_putchar(n);
-_putchar('\n');
+int n, x;
+n = abs(x);
+if (x == 0)
+{
 return (0);
+}
+else
+{
+return (n);
+}
+_putchar('\n');
 }
