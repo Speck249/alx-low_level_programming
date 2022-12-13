@@ -24,7 +24,6 @@ _putchar((n % 10) + 48);
 }
 if (m <= 10)
 {
-_putchar(58);
 _putchar(48);
 _putchar(m + 48);
 }
