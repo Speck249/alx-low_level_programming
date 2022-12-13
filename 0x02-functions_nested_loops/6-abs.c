@@ -7,15 +7,11 @@
 
 int _abs(int)
 {
-int n, x;
-n = abs(x);
-if (x == 0)
+int x;
+if (x < 0)
 {
-return (0);
-}
-else
-{
-return (n);
+x = -x;
+return (x);
 }
 _putchar('\n');
 }
