@@ -2,6 +2,10 @@
 /**
 *add - adds two integers and returns the result
 *
+*@a: integer value
+*
+*@b: integer value
+*
 *Return: Always 0 (Success);
 */
 
