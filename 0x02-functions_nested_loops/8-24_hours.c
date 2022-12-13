@@ -31,14 +31,8 @@ _putchar(m + 48);
 else if (m > 10)
 {
 _putchar(58);
-_putchar(48);
 _putchar((m / 10) + 48);
 _putchar((m % 10) + 48);
-}
-_putchar(n);
-_putchar(58);
-_putchar(m);
-}
 }
 _putchar('\n');
 }
