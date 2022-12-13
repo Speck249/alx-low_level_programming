@@ -15,25 +15,25 @@ for (m = 0; m < 60; m++)
 if (n < 10)
 {
 _putchar(48);
-_putchar(n + '0');
+_putchar(n + 48);
 }
 else if (n >= 10)
 {
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
+_putchar((n / 10) + 48);
+_putchar((n % 10) + 48);
 }
 if (m < 10)
 {
 _putchar(58);
 _putchar(48);
-_putchar(m + '0');
+_putchar(m + 48);
 }
 else if (m > 10)
 {
 _putchar(58);
 _putchar(48);
-_putchar((m / 10) + '0');
-_putchar((m % 10) + '0');
+_putchar((m / 10) + 48);
+_putchar((m % 10) + 48);
 }
 _putchar(n);
 _putchar(58);
