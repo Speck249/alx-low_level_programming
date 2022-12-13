@@ -5,9 +5,9 @@
 *Return: Always 0 (Success)
 */
 
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-int x, n;
+int x;
 x = n % 10;
 if (n < 0)
 {
