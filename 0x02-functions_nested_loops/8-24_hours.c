@@ -22,8 +22,9 @@ else if (n >= 10)
 _putchar((n / 10) + 48);
 _putchar((n % 10) + 48);
 }
-if (m <= 10)
+if (m < 10)
 {
+_putchar(58);
 _putchar(48);
 _putchar(m + 48);
 }
@@ -33,7 +34,7 @@ _putchar(58);
 _putchar((m / 10) + 48);
 _putchar((m % 10) + 48);
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
