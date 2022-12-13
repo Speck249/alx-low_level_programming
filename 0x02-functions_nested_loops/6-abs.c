@@ -2,6 +2,8 @@
 /**
 *_abs - function computes the absolute value of an integer
 *
+*@x: integer value
+*
 *Return: Always 0 (Success)
 */
 
