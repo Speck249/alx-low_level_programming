@@ -2,7 +2,7 @@
 /**
 *print_sign - function prints the sign of a number
 *
-*@n - integer to be evaluated
+*@n: integer to be evaluated
 *
 *Return: Always 0 (Success)
 */
