@@ -1,6 +1,8 @@
 #include "main.h"
 /**
-*main - function prints the sign of a number
+*print_sign - function prints the sign of a number
+*
+*@n - integer to be evaluated
 *
 *Return: Always 0 (Success)
 */
