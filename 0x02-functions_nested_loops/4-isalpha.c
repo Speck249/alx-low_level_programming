@@ -2,7 +2,7 @@
 /**
 *_isalpha -  function checks for alphabetic character
 *
-*@c - character to be evaluated
+*@c: character to be evaluated
 *
 *Return: Always 0 (Success)
 */
