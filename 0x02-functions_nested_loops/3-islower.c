@@ -2,7 +2,7 @@
 /**
 *_islower - function checks for lowercase character
 *
-*@c - input to be evaluated
+*c - parameter
 *
 *Return: Always 0 (Success)
 */
