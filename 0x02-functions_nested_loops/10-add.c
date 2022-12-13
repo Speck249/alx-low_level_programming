@@ -5,9 +5,9 @@
 *Return: Always 0 (Success);
 */
 
-int add(int, int)
+int add(int a, int a)
 {
-int a, b, sum;
+int sum;
 sum = a + b;
 return (sum);
 }
