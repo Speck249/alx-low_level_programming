@@ -6,16 +6,14 @@
 
 int main(void)
 {
-int a = 612852475143, b;
+long int a = 612852475143, b;
 
 for (b = 2; b <= a; b++)
 {
 if (a % b == 0)
-{
 a = a / b;
 b--;
 }
-}
-printf("%d\n", b);
+printf("%ld\n", b);
 return (0);
 }
