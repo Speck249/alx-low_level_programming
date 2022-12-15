@@ -16,13 +16,13 @@ else
 {
 for (i = 0; i <= size; i++)
 {
-for (j = i; j <= size; j++)
+for (j = i; j < size; j++)
 {
 _putchar(32);
 }
 for (k = 0; k <= i; k++)
 {
-_putchar('#');
+_putchar(35);
 }
 _putchar('\n');
 }
