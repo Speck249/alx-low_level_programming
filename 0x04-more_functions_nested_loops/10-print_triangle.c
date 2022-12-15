@@ -14,9 +14,9 @@ _putchar('\n');
 }
 else
 {
-for (i = 0; i <= size; i++)
+for (i = 0; i <= (size - 1); i++)
 {
-for (j = i; j < size; j++)
+for (j = i; j < (size - 1) - i; j++)
 {
 _putchar(32);
 }
