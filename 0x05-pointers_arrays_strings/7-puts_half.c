@@ -14,9 +14,9 @@ j = strlen(str);
 
 if (j % 2 == 1)
 {
-n = (j - 1) / 2;
+n = j - 1 / 2;
 }
-else 
+else
 {
 n = j / 2;
 }
