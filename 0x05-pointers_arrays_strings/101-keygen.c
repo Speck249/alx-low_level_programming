@@ -20,7 +20,7 @@ char letter[] = "abcdefghijklmnoqprstuvwyzx";
 char LETTER[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
 char digits[] = "0123456789";
 char symbols[] = "!@#$^&*?";
-char passwd[lp];
+char *passwd = malloc(length + 1);
 
 j = rand() % 4;
 
@@ -52,6 +52,7 @@ printf("%c", passwd[i]);
 }
 }
 passwd[lp] = '\0';
+free (password);
 }
 
 int main(void)
