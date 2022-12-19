@@ -15,14 +15,13 @@ int i = 0;
 int j = 0;
 int length = 0;
 
-srand((unsigned int)(time(NULL)));
-
 char letter[] = "abcdefghijklmnoqprstuvwyzx";
 char LETTER[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
 char digits[] = "0123456789";
 char symbols[] = "!@#$^&*?";
 char *passwd = malloc(length + 1);
 
+srand((unsigned int)(time(NULL)));
 j = rand() % 4;
 
 for (i = 0; i < lp; i++)
