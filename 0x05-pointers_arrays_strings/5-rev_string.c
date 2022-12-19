@@ -11,12 +11,10 @@ int n, i, j;
 char temp;
 
 n = 0;
-j = 0;
+j = n - 1;
 
 while (s[n] != '\0')
 n++;
-
-j = n - 1; 
 
 for (i = 0; i < n / 2; i++)
 {
@@ -25,5 +23,4 @@ s[i] = s[j];
 s[j] = temp;
 j--;
 }
-_putchar(s[i]);
 }
