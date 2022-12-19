@@ -11,11 +11,12 @@ int n, i, j;
 char temp;
 
 n = 0;
-j = n - 1;
+j = 0;
 
 while (s[n] != '\0')
 n++;
 
+j = n - 1;
 for (i = 0; i < n / 2; i++)
 {
 temp = s[i];
