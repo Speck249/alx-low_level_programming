@@ -11,15 +11,8 @@
 
 void random_passwd(int lp)
 {
-if (lp <= 0)
-{
-printf("Password too short. Try again.");
-return (1);
-}
-
-int i, j;
-i = 0;
-j = 0;
+int i = 0;
+int j = 0;
 
 srand((unsigned int)(time(NULL)));
 
