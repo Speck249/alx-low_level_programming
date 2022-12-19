@@ -7,13 +7,16 @@
 
 void print_rev(char *s)
 {
-char str = s;
-int i;
+int n, i;
 
-while (str[i] != '\0')
+while (str[n] != '\0')
+{
+n++
+}
+
+for (i = n; i >= 0; i--)
 {
 _putchar(str[i]);
-i--;
 }
 
 if (str[i] == '\0')
