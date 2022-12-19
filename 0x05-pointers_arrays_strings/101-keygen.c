@@ -13,7 +13,7 @@ void random_passwd(int lp)
 {
 int i = 0;
 int j = 0;
-int length;
+int length = 0;
 
 srand((unsigned int)(time(NULL)));
 
