@@ -56,7 +56,7 @@ passwd[lp] = '\0';
 
 int main(void)
 {
-int lp;
-random_passwd(8);
+int lp = 8;
+random_passwd(lp);
 return 0;
 }
