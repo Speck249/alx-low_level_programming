@@ -13,6 +13,7 @@ void random_passwd(int lp)
 {
 int i = 0;
 int j = 0;
+int length;
 
 srand((unsigned int)(time(NULL)));
 
@@ -52,7 +53,7 @@ printf("%c", passwd[i]);
 }
 }
 passwd[lp] = '\0';
-free (password);
+free (passwd);
 }
 
 int main(void)
