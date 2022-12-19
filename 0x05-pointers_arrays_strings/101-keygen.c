@@ -59,5 +59,6 @@ int main(void)
 {
 int lp = 8;
 random_passwd(lp);
+printf("Tada! Congrats");
 return 0;
 }
