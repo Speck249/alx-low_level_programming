@@ -30,7 +30,7 @@ number = -number;
 k = k * 10 + number;
 l = 1;
 
-if (s[i + 1] < 48 || s[i + 1] > 57)
+if (s[i + 1] < 48 || s[i + 1] > 57
 break;
 
 l = 48;
@@ -39,9 +39,7 @@ i++;
 }
 
 if (l == 48)
-{
 return (0);
-}
 
 return (k);
 }
