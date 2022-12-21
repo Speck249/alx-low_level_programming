@@ -21,16 +21,18 @@ _putchar(44);
 _putchar(32);
 
 if (k <= 9)
+{
 _putchar(32);
 _putchar(32);
 _putchar(k + 48);
-
-if (k <= 99)
+}
+else if (k <= 99)
+{
 _putchar(32);
 _putchar((k / 10) + 48);
 _putchar((k % 10) + 48);
-
-if (k >= 100)
+}
+else
 {
 _putchar(((k / 100) % 10) + 48);
 _putchar(((k / 10) % 10) + 48);
