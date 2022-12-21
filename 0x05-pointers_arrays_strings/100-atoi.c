@@ -10,7 +10,7 @@ int _atoi(char *s)
 int i = 0;
 int j = 0;
 int k = 0;
-int l = 0
+int l = 0;
 int n = 0;
 int number = 0;
 
@@ -35,7 +35,7 @@ break;
 
 l = 48;
 }
-i++
+i++;
 }
 if (l == 48)
 return (0);
