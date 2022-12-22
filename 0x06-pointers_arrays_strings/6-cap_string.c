@@ -10,7 +10,7 @@ char *cap_string(char *s)
 int i;
 int j = 13;
 int n = 0;
-char sep[] = {32, \t, \n, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+char sep[] = {32, '\t', '\n', 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
 while (s[n])
 {
