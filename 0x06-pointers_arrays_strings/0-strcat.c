@@ -13,9 +13,9 @@ int i, j = 0;
 while (dest[j])
 j++;
 
-for (i = 0; src[i] != '0'; i++)
+for (i = 0; src[i] != 0; i++)
 {
-dest[j] = sr[i];
+dest[j] = src[i];
 j = j + 1;
 }
 
