@@ -10,7 +10,7 @@ char *leet(char *s)
 int i = 0;
 int j;
 int n = 5;
-char str[5] = {65, 69, 79, 64, 76};
+char str[5] = {65, 69, 79, 84, 76};
 char rep[5] = {52, 51, 48, 55, 49};
 
 while (s[i])
