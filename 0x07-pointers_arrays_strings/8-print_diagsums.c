@@ -13,8 +13,16 @@ int i, b = 0, c = 0;
 
 for (i = 0; i < size; i++)
 {
-b += a[(size + 1) * i];
-c += a[(size - 1) * (i + 1)];
+b += a[i];
+a += size;
 }
+a -= size;
+
+for (i = 0; i < size; i++)
+{
+c += a[i];
+a -= size;
+}
+
 printf("%d, %d", b, c);
 }
