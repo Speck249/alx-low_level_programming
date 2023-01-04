@@ -15,8 +15,8 @@ return;
 
 else
 {
-_putchar(*s);
+_putchar(s);
 s--;
-_print_rev_recursion(*s);
+_print_rev_recursion(s);
 }
 }
