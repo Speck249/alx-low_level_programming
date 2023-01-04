@@ -19,11 +19,11 @@ return (_sqrt(n, 1));
 
 int _sqrt(int n, int x)
 {
-int sqare = x * x;
+int square = x * x;
 if (square > x)
 return (-1);
 
-if (square == x)
+if (square == n)
 return (x);
 
 return (_sqrt(n, x + 1));
