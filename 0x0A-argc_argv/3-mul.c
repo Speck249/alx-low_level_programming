@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 /**
 *main - program prints all arguments
 *@argc: first parameter
@@ -12,18 +11,17 @@ int main(int argc, char *argv[])
 {
 int a, b, Prod;
 
-if (argc == 3)
-{
-a = atoi(argv[1]);
-b = atoi(argv[2]);
-Prod = a * b;
-printf("%d\n", Prod);
-}
-
-else
+if (argc != 3)
 {
 printf("Error\n");
 return (1);
 }
+
+else
+a = atoi(argv[1]);
+b = atoi(argv[2]);
+Prod = a * b;
+printf("%d\n", Prod);
+
 return (0);
 }
