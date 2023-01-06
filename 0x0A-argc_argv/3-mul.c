@@ -4,24 +4,18 @@
 *main - program prints all arguments
 *@argc: first parameter
 *@argv: second parameter
-*Return: returns product
+*Return: Always 0 (Success)
 */
 
 int main(int argc, char *argv[])
 {
-int a, b, Prod;
-
 if (argc != 3)
 {
 printf("Error\n");
 return (1);
 }
 
-else
-a = atoi(argv[1]);
-b = atoi(argv[2]);
-Prod = a * b;
-printf("%d\n", Prod);
+printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 
 return (0);
 }
