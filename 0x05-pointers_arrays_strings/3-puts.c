@@ -9,14 +9,17 @@ void _puts(char *str)
 {
 int n = 0, i;
 
-while (str[n] != '\0')
-n++;
-
+while ((*(str + n)) != '\0')
+{
 for (i = 0; i < n; i++)
 {
 _putchar(str[i]);
 }
 
-if (str[n] == '\0')
+if ((*(str + n)) == '\0')
+{
 _putchar('\n');
+}
+n++;
+}
 }
