@@ -12,10 +12,11 @@ int i = 0;
 while (i >= 0)
 {
 if (str[i] != '\0')
+{
 _putchar(s[i]);
 i++;
 }
 
-else
 _putchar('\n');
+}
 }
