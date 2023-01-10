@@ -13,6 +13,6 @@ int i;
 
 for (i = 0; i < height; i++)
 {
-free(gried[i]);
+free(grid[i]);
 free(grid);
 }
