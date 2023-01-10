@@ -7,19 +7,20 @@
 
 void _puts(char *str)
 {
-int n = 0, i;
+int n = 0, m = 0; i;
 
-while ((*(str + n)) != '\0')
+while ((*(str + m)) != '\0')
 {
-for (i = 0; i < n; i++)
+for (i = 0; i < str[n]; i++)
 {
 _putchar(str[i]);
 }
 
-if ((*(str + n)) == '\0')
+if ((*(str + m)) == '\0')
 {
 _putchar('\n');
 }
+m++;
 n++;
 }
 }
