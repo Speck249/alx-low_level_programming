@@ -14,8 +14,7 @@ char *ptr;
 if (str == NULL)
 return (NULL);
 
-for (i = 0; str[i] != '\0'; i++)
-	;
+for (i = 0; str[i] != '\0'; i++);	;
 
 ptr = (char *)malloc(sizeof(char) * (i + 1));
 
