@@ -15,16 +15,16 @@ if (s[i] == '\0')
 {
 _putchar('\n');
 break;
+i++;
 }
 
-else if (s[i] != '\0')
+else
 {
-for (i = s[n]; i >=0; i--;)
+for (i = s[n]; i >= 0; i--)
 {
 _putchar(s[i]);
-}
 n++;
 }
-i++;
+}
 }
 }
