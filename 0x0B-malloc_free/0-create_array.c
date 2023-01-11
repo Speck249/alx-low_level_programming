@@ -25,7 +25,6 @@ else
 while (i < size)
 s[i] = c;
 i++;
-_putchar(s[i]);
 
-return (0);
+return (s);
 }
