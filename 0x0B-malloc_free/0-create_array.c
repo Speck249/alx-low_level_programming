@@ -9,19 +9,23 @@
 
 char *create_array(unsigned int size, char c)
 {
-unsigned int i;
-char *a;
+unsigned int i = 0;
+char *s;
 
 if (size == 0)
 return (NULL);
 
-a = malloc(sizeof(c) * size);
+else
+s = malloc(sizeof((char)*size);
 
-if (a == NULL)
+if (s == NULL)
 return (NULL);
 
-for (i = 0; i < size; i++)
-a[i] = c;
+else
+while (i < size)
+s[i] = c;
+i++;
+_putchar(s[i]);
 
-return (a);
+return (0);
 }
