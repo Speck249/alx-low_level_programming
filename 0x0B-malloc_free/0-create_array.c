@@ -15,16 +15,13 @@ char *s;
 if (size == 0)
 return (NULL);
 
-else
 s = malloc(sizeof(char) * size);
 
 if (s == NULL)
 return (NULL);
 
-else
-while (i < size)
+for (i = 0; i < size; i++)
 s[i] = c;
-i++;
 
 return (s);
 }
