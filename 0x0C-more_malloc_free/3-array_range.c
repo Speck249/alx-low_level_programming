@@ -19,7 +19,7 @@ ptr = malloc(sizeof(*ptr) * ((max - min) + 1));
 if (ptr == NULL)
 return (NULL);
 
-for (i = 0; min <= max; min++; i++)
+for (i = 0; min <= max; min++, i++)
 ptr[i] = min;
 
 return (ptr);
