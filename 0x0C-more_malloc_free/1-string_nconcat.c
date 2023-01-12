@@ -25,21 +25,24 @@ for (a = 0; s1[a] != '\0'; a++)
 for (b = 0; s2[b] != '\0'; b++)
 	;
 
-ptr = (int *)malloc(sizeof(char) * ((s1 + a) + n);
+if (n > b)
+n = b;
+
+c = a + n;
+
+ptr = malloc(c + 1);
 
 if (ptr == NULL)
 return (NULL);
 
-for (c = 0; s1[c] < a; c++)
-ptr[c] = s1[c];
+for (d = 0; d < c; d++)
+if (d < a)
+ptr[d] = s1[d];
 
-d = b;
-if (n >= (s2 + b))
-for (b = 0; s2[b] <= d; c++; b++)
-ptr[c] = s2[b];
+else
+ptr[d] = s2[d - a];
 
-for (b = 0; s2[b] <= d; c++; b++)
-ptr[c] = s2[b];
+ptr[d] = '\0';
 
 return (ptr);
 }
