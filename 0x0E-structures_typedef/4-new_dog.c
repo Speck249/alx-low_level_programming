@@ -5,13 +5,13 @@
 *@name: first parameter
 *@age: second parameter
 *@owner: third parameter
-*Return: returns no value
+*Return: returns new dog
 */
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-int i, j, k;
 dog_t *d_t;
+int i, j, k;
 
 d_t = malloc(sizeof(*d_t));
 
