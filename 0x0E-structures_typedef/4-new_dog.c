@@ -17,6 +17,7 @@ d_t = malloc(sizeof(*d_t));
 
 if (d_t == NULL || name == NULL || owner == NULL)
 {
+free(d_t);
 return (NULL);
 }
 
@@ -31,7 +32,7 @@ d_t->owner = malloc(k + 1);
 if (d_t->name == NULL || d_t->owner == NULL)
 {
 free(d_t->name);
-free(d_t->owner)
+free(d_t->owner);
 free(d_t);
 return (NULL);
 }
