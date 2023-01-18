@@ -4,6 +4,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/**
+*struct op - strucutre variable
+*@op: first variable
+*@f: second variable
+*/
+
 typedef struct op
 {
 char *op;
