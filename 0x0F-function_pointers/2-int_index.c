@@ -4,7 +4,7 @@
 *@array: first parameter
 *@size: second parameter
 *@cmp: third paramter
-*Return: returns no value
+*Return: Always 0 (Success)
 */
 
 int int_index(int *array, int size, int (*cmp)(int))
@@ -21,6 +21,5 @@ if (cmp(array[i]);
 return (i);
 }
 
-else
 return (-1);
 }
