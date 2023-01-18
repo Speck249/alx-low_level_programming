@@ -2,7 +2,7 @@
 /**
 *get_op_func - function performs required operation
 *@s: first parameter
-*Return: Always 0 (Success)
+*Return: pointer to function
 */
 
 int (*get_op_func(char *s))(int, int)
@@ -15,10 +15,7 @@ op_t ops[] = {
 {"%", op_mod},
 {NULL, NULL}
 };
-
-int i;
-
-i = 0;
+int i = 0;
 
 while (ops[i].op)
 {
