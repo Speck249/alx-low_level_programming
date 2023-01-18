@@ -1,13 +1,13 @@
-#ifndef CALC_H
-#define CALC_H
+#ifndef _CALC_H_
+#define _CALC_H_
 
 #include <stdlib.h>
 #include <stdio.h>
 
 /**
 *struct op - strucutre variable
-*@op: first variable
-*@f: second variable
+*@op: operation
+*@f: function
 */
 
 typedef struct op
