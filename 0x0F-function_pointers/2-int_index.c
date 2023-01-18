@@ -4,7 +4,7 @@
 *@array: first parameter
 *@size: second parameter
 *@cmp: third paramter
-*Return: Always 0 (Success)
+*Return: returns -1 when size <= 0 & matches are unfound
 */
 
 int int_index(int *array, int size, int (*cmp)(int))
