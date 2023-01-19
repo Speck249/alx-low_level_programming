@@ -39,7 +39,7 @@ printf("%f", va_arg(args, double)), p = 1;
 break;
 case 's':
 ptr = va_arg(args, char *), p = 1;
-if (ptr == NULL)
+if (!ptr)
 {
 printf("(nil)");
 break;
