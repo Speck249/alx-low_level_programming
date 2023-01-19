@@ -12,10 +12,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 va_list args;
 char *ptr;
+unsigned int i;
 
 va_start(args, n);
 
-for (unsigned int i = 0; i < n; i++)
+for (i = 0; i < n; i++)
 {
 ptr = va_arg(args, char *);
 
