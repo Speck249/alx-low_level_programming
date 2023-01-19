@@ -1,6 +1,4 @@
 #include "variadic_functions.h"
-#include <stdarg.h>
-#include <stdio.h>
 /**
 *print_strings - function prints strings
 *@separator: first parameter
@@ -30,7 +28,7 @@ if (separator && i < n - 1)
 printf("%s", separator);
 }
 
-_putchar('\n');
+printf("\n");
 
 va_end(args);
 }
