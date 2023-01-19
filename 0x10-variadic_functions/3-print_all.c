@@ -8,7 +8,6 @@
 void print_all(const char * const format, ...)
 {
 va_list args;
-
 unsigned int m = 0, n, p = 0;
 char *ptr;
 const char t_arg[] = "cifs";
@@ -25,7 +24,6 @@ printf(", ");
 break;
 } n++;
 }
-
 switch (format[m])
 {
 case 'c':
