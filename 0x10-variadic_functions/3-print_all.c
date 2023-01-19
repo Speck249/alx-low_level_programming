@@ -8,6 +8,7 @@
 void print_all(const char * const format, ...)
 {
 va_list args;
+
 unsigned int m = 0, n, p = 0;
 char *ptr;
 const char t_arg[] = "cifs";
@@ -25,31 +26,27 @@ break;
 } n++;
 }
 
-switch (format[d])
+switch (format[m])
 {
-case 'i':
-printf("%d", va_arg(args, int)), c = 1;
-break;
-
-case 'f':
-printf("%f", va_arg(args, float)), c = 1;
-break;
-
 case 'c':
-printf("%c", va_arg(args, int)), c = 1;
+printf("%c", va_arg(args, int)), p = 1;
 break;
-
+case 'i':
+printf("%d", va_arg(args, int)), p = 1;
+break;
+case 'f':
+printf("%f", va_arg(args, double)), p = 1;
+break;
 case 's':
-ptr = va_args(args, char *), c = 1;
-if (s == NULL)
+ptr = va_arg(args, char *), p = 1;
+if (ptr == NULL)
 {
 printf("(nil)");
 break;
 }
 printf("%s", ptr);
 break;
-} i++;
+} m++;
 }
-
-_putchar('\n'), va_ends(args);
+printf("\n"), va_end(args);
 }
