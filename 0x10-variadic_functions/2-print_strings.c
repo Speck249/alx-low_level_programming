@@ -26,7 +26,7 @@ printf("(nil)");
 else
 printf("%s", ptr);
 
-if (i < n - 1 && separator != NULL)
+if (separator && i < n - 1)
 printf("%s", separator);
 }
 
