@@ -12,12 +12,12 @@ listint_t *temp, *n_temp;
 if (head != NULL)
 {
 n_temp = *head;
-while ((temp == n_temp) != NULL)
+while ((temp = n_temp) != NULL)
 {
 n_temp = n_temp->next;
 free(temp);
 }
 
-*head == NULL;
+*head = NULL;
 }
 }
