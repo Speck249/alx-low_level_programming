@@ -7,26 +7,32 @@
 
 int main(void)
 {
-int i, n;
-i = 48;
-n = 48;
-while (n <= 57)
+int i = 48;
+int j = 48;
+
+while (j < 58)
 {
 i = 48;
-while (i <= 57)
+
+while (i < 58)
 {
-putchar(n);
+if (i != j && j < i)
+{
+putchar(j);
 putchar(i);
-if (i == 57 && n == 57)
+
+if (i == 57 && j == 56)
 {
 break;
 }
 putchar(44);
 putchar(32);
+}
 i++;
 }
-n++;
+j++;
 }
+
 putchar('\n');
 return (0);
 }
