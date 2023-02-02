@@ -1,24 +1,24 @@
 #include <stdio.h>
 #include <string.h>
 /**
-*main - Prints the Alphabet in lowercase then uppercase
-*
+*main - Prints Alphabet in lowercase & uppercase
 *Return: Always 0 (Success)
 */
 
 int main(void)
 {
-int i;
-for (i = 97; i <= 122; i++)
+int i, j;
+
+for (i = 97; i < 123; i++)
 {
 putchar(i);
 }
 
-for (i = 65; i <= 90; i++)
+for (j = 65; j < 91; j++)
 {
-putchar(i);
+putchar(j);
 }
-
 putchar('\n');
+
 return (0);
 }
