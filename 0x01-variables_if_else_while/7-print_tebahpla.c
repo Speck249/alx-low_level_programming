@@ -1,19 +1,18 @@
 #include <stdio.h>
-#include <string.h>
 /**
-*main - prints lowercase Alphabet in reverse
-*
+*main - prints lowercase alphabet in reverse
 *Return: Always 0 (Success)
 */
 
 int main(void)
 {
-int i = 122;
-while (i >= 97)
+int i;
+
+for (i = 122; i > 96; i--)
 {
 putchar(i);
-i--;
 }
 putchar('\n');
+
 return (0);
 }
