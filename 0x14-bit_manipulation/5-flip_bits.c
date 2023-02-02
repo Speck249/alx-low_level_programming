@@ -16,7 +16,7 @@ result = n ^ m;
 
 while (result > 0)
 {
-x += (result & 1)
+x += (result & 1);
 result >>= 1;
 }
 return (x);
