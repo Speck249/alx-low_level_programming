@@ -21,14 +21,14 @@ op = open(filename, O_RDONLY);
 if (op == -1)
 return (0);
 
-buff = malloc(sizeof(char) * letters);
+buff = malloc(sizeof(char) * (letters));
 if (buff == NULL)
 return (0);
 
 rd = read(op, buff, letters);
 wr = write(STDOUT_FILENO, buff, rd);
 
-close (op);
+close(op);
 free(buff);
 return (wr);
 }
