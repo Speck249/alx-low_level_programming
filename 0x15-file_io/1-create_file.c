@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 *create_file - creates a file
-*filename: first parameter
-*text_content: second parameter
+*@filename: first parameter
+*@text_content: second parameter
 *Return: 1 on success, -1 on failure
 */
 
@@ -26,6 +26,5 @@ if (op == -1 || wr == -1)
 return (-1);
 
 close(op);
-
 return (1);
 }
