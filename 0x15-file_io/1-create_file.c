@@ -20,7 +20,7 @@ i++;
 }
 
 op = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
-wr = write(o, text_content, i);
+wr = write(op, text_content, i);
 
 if (op == -1 || wr == -1)
 return (-1);
