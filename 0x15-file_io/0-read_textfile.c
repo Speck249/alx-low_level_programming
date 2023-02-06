@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*read_textfile - reads text file & prints to POSIX standard output
+*read_textfile - reads & prints text file to POSIX stdout
 *@filename: first parameter
 *letters: second parameter
 *Return: number of letters it could read & print
@@ -15,7 +15,7 @@ if (!filename)
 return (0);
 
 buff = malloc(sizeof(char) * (letters));
-if (!buffer)
+if (!buff)
 return (0);
 
 rd = read(op, buff, letters);
@@ -32,4 +32,3 @@ free(buff);
 close(op);
 return(wr);
 }
-
