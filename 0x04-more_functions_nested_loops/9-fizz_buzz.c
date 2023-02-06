@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
 *main - executes the Fizz-Buzz test
 *Return: Always 0 (Success)
@@ -7,24 +6,33 @@
 
 int main(void)
 {
-int i;
-char a[] = "Fizz";
-char b[] = "Buzz";
-char c[] = "FizzBuzz";
+int n;
 
-for (i = 1; i <= 100; i++)
+for (n = 1; n < 101; n++)
 {
-if (i == 100)
-printf("%s", b);
-else if ((i % 3 == 0) && (i % 5 == 0))
-printf("%s ", c);
-else if (i % 3 == 0)
-printf("%s ", a);
-else if (i % 5 == 0)
-printf("%s ", b);
-else
-printf("%d ", i);
+if ((n % 3 == 0) && (n % 5 == 0))
+{
+printf("FizzBuzz");
 }
-printf("\n");
+else if (n % 3 == 0)
+{
+printf("Fizz");
+}
+else if (n % 5 == 0)
+{
+printf("Buzz");
+}
+else
+{
+printf("%d", n);
+}
+
+if (n < 100)
+{
+putchar(44);
+putchar(32);
+}
+}
+
 return (0);
 }
