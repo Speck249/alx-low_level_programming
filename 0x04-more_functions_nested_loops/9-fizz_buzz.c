@@ -29,7 +29,6 @@ printf("%d", n);
 
 if (n < 100)
 {
-putchar(44);
 putchar(32);
 }
 }
