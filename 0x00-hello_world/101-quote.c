@@ -1,10 +1,9 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- *main - Entry point
- *
- *Return: Always 0 (Success)
- */
+*main - write to stderr
+*Return: Always 0 (Success)
+*/
 
 int main(void)
 {
