@@ -2,7 +2,7 @@
 /**
 *read_textfile - reads & prints text file to POSIX stdout
 *@filename: first parameter
-*letters: second parameter
+*@letters: second parameter
 *Return: number of letters it could read & print
 */
 
