@@ -1,40 +1,32 @@
 #include "main.h"
 /**
-*jack_bauer - function prints every minute of the day
-*
-*Return: Always 0 (Success)
+*jack_bauer - prints 24 hrs
+*Return: no return value
 */
 
 void jack_bauer(void)
 {
-int n, m;
-for (n = 0; n < 24; n++)
+int h1, h2, m, s;
+
+for (h1 = 48; h1 < 51; h1++)
 {
-for (m = 0; m < 60; m++)
+for (h2 = 48; h2 < 58; h2++)
 {
-if (n < 10)
+for (m = 48; m < 54; m++)
 {
-_putchar(48);
-_putchar(n + 48);
-}
-else if (n >= 10)
+for (s = 48; s < 58; s++)
 {
-_putchar((n / 10) + 48);
-_putchar((n % 10) + 48);
-}
-if (m < 10)
-{
+if (h1 >= 50 && h2 > 51)
+break;
+
+_putchar(h1);
+_putchar(h2);
 _putchar(58);
-_putchar(48);
-_putchar(m + 48);
-}
-else if (m >= 10)
-{
-_putchar(58);
-_putchar((m / 10) + 48);
-_putchar((m % 10) + 48);
-}
+_putchar(m);
+_putchar(s);
 _putchar('\n');
+}
+}
 }
 }
 }
