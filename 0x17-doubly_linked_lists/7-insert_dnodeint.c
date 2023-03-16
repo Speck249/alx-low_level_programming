@@ -1,12 +1,11 @@
 #include "lists.h"
 /**
 *insert_dnodeint_at_index - inserts new node
-*@h: first parameter
+*@h: first paramter
 *@idx: second parameter
 *@n: third parameter
 *Return: address of new node
 */
-
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 dlistint_t *new;
@@ -48,4 +47,4 @@ counter++;
 }
 }
 return (new);
-}                                                                                                                                          1,1           Top
+}
