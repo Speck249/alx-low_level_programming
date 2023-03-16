@@ -35,7 +35,7 @@ else
 j->next = i->next;
 
 if (i->next != NULL)
-    i->next->prev = j;
+i->next->prev = j;
 }
 free(i);
 return (1);
