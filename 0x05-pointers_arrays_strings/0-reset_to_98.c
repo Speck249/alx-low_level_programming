@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*reset_to_98 - resets the value of a int via pointer
+*reset_to_98 - resets value of a via pointer
 *@n: parameter
 *Return: returns no value
 */
